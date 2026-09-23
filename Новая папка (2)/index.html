@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экспедиция сквозь время</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Nunito+Sans:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-top">
+            <p class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <title>compass</title>
+                    <path fill="currentColor"
+                        d="M12 10.9c-.61 0-1.1.49-1.1 1.1s.49 1.1 1.1 1.1c.61 0 1.1-.49 1.1-1.1s-.49-1.1-1.1-1.1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm2.19 12.19L6 18l3.81-8.19L18 6l-3.81 8.19z">
+                        <animateTransform id="SVGKSLUAcIu" attributeName="transform" attributeType="XML"
+                            begin="0;SVGKjj5hd4q.end" dur="1s" from="-90 12 12" to="0 12 12" type="rotate" />
+                        <animateTransform id="SVGkFYRWcWj" attributeName="transform" attributeType="XML"
+                            begin="SVGKSLUAcIu.end" dur="1s" from="0 12 12" to="-90 12 12" type="rotate" />
+                        <animateTransform id="SVGKjj5hd4q" attributeName="transform" attributeType="XML"
+                            begin="SVGkFYRWcWj.end" dur="1s" from="-90 12 12" to="270 12 12" type="rotate" />
+                    </path>
+                </svg> Хроники Земли</p>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#dinosaurs">01 Динозавры</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mammals">02 Млекопитающие</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#humans">03 Первые люди</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#agriculture">04 Земледелие</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#civilizations">05 Цивилизации</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#antiquity">06 Античность</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#middle-ages">07 Средние века</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#discoveries">08 Открытия</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#science">09 Наука</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#enlightenment">10 Просвещение</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#industrial">11 Революция</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#electricity">12 Электричество</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="hero">
+            <span class="hero-ticket-label">Посадочный талон № 240 000 000</span>
+            <h1 class="hero-title">Экспедиция сквозь время</h1>
+            <p class="hero-subtitle">240 миллионов лет пути — от рёва динозавров до первой электрической лампы</p>
+            <a class="hero-button" href="#dinosaurs">Сесть в машину времени →</a>
+            <div class="hero-route">
+                <span class="hero-route-dot"></span>
+                <span class="hero-route-line"></span>
+                <span class="hero-route-dot"></span>
+                <span class="hero-route-line"></span>
+                <span class="hero-route-dot hero-route-dot--end"></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="intro">
+            <div class="container intro-inner">
+                <div class="stamp">билет действителен</div>
+                <h2 class="intro-title">Добро пожаловать на борт</h2>
+                <p class="intro-text">Сейчас вы отправитесь в путешествие по 12 остановкам истории Земли. Каждая
+                    остановка — своя эпоха: свой климат, свои герои и своё открытие, изменившее всё, что было после.
+                    Используйте маршрут наверху, чтобы телепортироваться сразу к нужной станции.</p>
+            </div>
+        </section>
+
+        <div class="timeline">
+            <div class="timeline-spine"></div>
+
+            <section class="timeline-item timeline-item--left" id="dinosaurs">
+                <div class="timeline-dot"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 512 512">
+                        <title>dinosaur-bones</title>
+                        <path fill="currentColor"
+                            d="m236.375 34.5l-18.53 2.406l5.06 39.407c-9.114 1.973-18.22 4.657-27.28 8.062l-9.5-40.156l-18.188 4.31l10.25 43.345a218.5 218.5 0 0 0-25.093 14.344l-17.28-42.876L118.5 70.31l19.03 47.22a206 206 0 0 0-14.25 12.468L89.47 89.625l-14.345 12l35.22 42.063a195 195 0 0 0-12.97 16.78L53.47 133.5l-9.782 15.938l43.874 26.906a194 194 0 0 0-9.812 20.53l-47.53-12.81l-4.845 18.06L71.5 214.532a200.3 200.3 0 0 0-7.344 36.345l-39.656-2.25l-1.03 18.688l39.56 2.218a207 207 0 0 0 2.47 35.19L31.375 311l3.375 18.375l34.47-6.344c2.885 11.524 6.74 22.782 11.56 33.595l-26.31 11.97l7.75 17l27-12.283A192.6 192.6 0 0 0 110 403.126l-20.53 16.813l11.843 14.468l21.5-17.625a185 185 0 0 0 29.406 23.126L141.53 456l15.564 10.344l11.437-17.22c11.12 5.558 23.014 10.1 35.626 13.47l3.563-17.72c-10.315-2.77-20.055-6.39-29.19-10.812l7.47-11.25l-15.563-10.343l-8.28 12.467c-9.12-5.807-17.506-12.456-25.157-19.78l13.906-11.407l-11.844-14.438l-14.843 12.157a177.5 177.5 0 0 1-18-25.908l22.5-10.25l-7.75-17l-23.19 10.563a188.4 188.4 0 0 1-10.218-29.22l32.313-5.967l-3.375-18.375l-32.72 6.03a188 188 0 0 1-2.25-30.78l40.032 2.25l1.063-18.657l-39.97-2.25c.73-6.54 1.805-13.07 3.25-19.53c4.226.572 9.16 1.176 15.064 1.843c14.326 1.616 32.835 3.446 51.155 5.186c29.98 2.848 49.638 4.533 59.375 5.375l-33.063 72.345l-5.78 12.656l1.343.064L234.563 365l9.406-16.156l-29.94-17.375l51.782 2.092l.75-18.687l-49.343-2l33.593-13.22l-6.844-17.405l-35.407 13.938L234 240.53l5.5-12.06l-13.22-1.126s-35.88-3.062-72.405-6.53c-18.263-1.736-36.696-3.565-50.813-5.158c-4.618-.52-8.52-1.014-12.03-1.47c9.83-29.017 27.474-56.23 53.812-78.5l20.937 52l17.345-7l-22.875-56.75c.296-.202.578-.42.875-.624a207 207 0 0 1 21.47-12.812l18.874 79.906l18.186-4.28l-19.72-83.5q12.648-4.988 25.314-7.876l11.78 91.75l18.532-2.375l-11.875-92.53c8.964-1.012 17.896-1.247 26.75-.814l3 96.19l18.688-.595l-.344-11.25l34.22 39.28l-37.28 17.064l7.78 17l32.313-14.782l-15.688 32.343l16.813 8.19L353.344 226l2.72-5.563l-4.064-4.656l-41.375-47.468l50.53-47.843c23.78 15.006 45.428 35.18 63.533 59.343c-23.814 6.14-44.022 24.153-50.688 53.718l47 103.064l16.875-2.406l-26.938-68.625l17.407-6.844l28.562 72.75l34.813-5l-8.408-138.626c-11.76-6.55-24.637-9.992-37.312-10.375a281 281 0 0 0-14.47-19.19l18.564-18.686l-13.25-13.156l-17.72 17.812a261 261 0 0 0-15.78-15.28l18.125-27.314l-15.595-10.312l-17 25.656a239 239 0 0 0-18.656-12.906l10.56-31.844l-17.75-5.875l-9.374 28.28a216 216 0 0 0-21.906-9.75l3.156-33.686l-18.625-1.75l-2.75 29.5a195.5 195.5 0 0 0-24.905-5.126l-.938-30.188L269 44.22l.875 27.936q-2.495-.095-5-.125c-1.19-.013-2.37-.007-3.563 0q-9.95.074-19.968 1.22l-4.97-38.75zm52.844 58.22a179 179 0 0 1 22.53 5.155l-4.438 47.406l.407.032l-16.376 15.5l-2.125-68.093zm40.717 11.56a198 198 0 0 1 14.25 6.532l-16.312 15.438zM441.5 195.5c.786-.023 1.572.006 2.375.063c12.852.9 22.34 11.843 21.438 24.687c-.902 12.84-11.836 22.34-24.688 21.438S418.285 229.84 419.187 217c.845-12.037 10.52-21.152 22.313-21.5M328.25 439.563a292 292 0 0 1-15.625 4.28l4 18.282c5.63-1.356 11.322-2.9 17.094-4.656l-5.47-17.908zm-33.906 8.093a238 238 0 0 1-20.97 2.656l.376 18.532a251 251 0 0 0 24.563-2.938l-3.97-18.25zM226 448.75l-3.594 17.78c10.464 1.76 21.356 2.75 32.656 2.876l-.375-18.344c-9.96-.06-19.515-.87-28.687-2.312" />
+                    </svg></div>
+                <div class="timeline-card">
+                    <span class="stop-number">Станция 01</span>
+                    <div class="era-meta">
+                        <span class="era-date">240 — 66 млн лет назад</span>
+                        <span class="era-duration">Длительность: около 174 млн лет</span>
+                    </div>
+                    <h2 class="era-title">Эра динозавров</h2>
+                    <p class="era-text">Более 240 миллионов лет назад на планете началась эра, в которую на суше, в
+                        воде и в воздухе господствовали динозавры — от крошечных ящеров размером с курицу до гигантов
+                        длиной с девятиэтажный дом.</p>
+                    <p class="era-text">Климат был тёплым и влажным, а материки ещё не разделились на привычные нам
+                        континенты. Пышные леса из папоротников и хвойных деревьев служили домом для тысяч видов
+                        рептилий.</p>
+                    <p class="era-text">Эпоха динозавров закончилась внезапно: 66 миллионов лет назад в Землю
+                        врезался астероид, вызвавший похолодание и гибель большинства видов на планете.</p>
+                    <blockquote class="era-quote">Эпоха, когда самыми успешными существами планеты были рептилии.
+                    </blockquote>
+                    <ul class="era-list">
+                        <li class="era-list-item">230 млн лет назад — появление первых динозавров</li>
+                        <li class="era-list-item">150 млн лет назад — расцвет юрского периода</li>
+                        <li class="era-list-item">66 млн лет назад — падение астероида и массовое вымирание</li>
+                    </ul>
+                    <div class="era-fact">
+                        <p class="fact-title">Интересный факт</p>
+                        <p class="fact-text">Некоторые динозавры были покрыты перьями — вероятно, именно от них
+                            произошли современные птицы.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="timeline-item timeline-item--right" id="mammals">
+                <div class="timeline-dot"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 32 32">
+                        <title>monkey</title>
+                        <g fill="currentColor">
+                            <path
+                                d="M9.996 14.957a1.984 1.984 0 0 0 1.984-1.984H8.012c0 1.096.888 1.984 1.984 1.984m-.544-3.049a.246.246 0 1 0 0-.493a.246.246 0 0 0 0 .493m1.326-.247a.246.246 0 1 1-.493 0a.246.246 0 0 1 .493 0M8.51 8.984a.49.49 0 0 0-.49.49v1.036a.49.49 0 1 0 .98 0V9.475a.49.49 0 0 0-.49-.49m2.51.49a.49.49 0 1 1 .98 0v1.035a.49.49 0 1 1-.98 0z" />
+                            <path
+                                d="M4.834 8.157A5.45 5.45 0 0 1 9.5 5.531h.992a5.45 5.45 0 0 1 4.664 2.622a3.15 3.15 0 0 1 2.356 4.713c5.88 1.274 7.78 6.46 7.986 9.016l.002.04v2.04c.202-.069.411-.17.618-.312c.652-.443 1.181-1.23 1.148-2.408c-.061-2.173-1.186-3.387-2.624-4.672l-.353-.313c-.61-.537-1.303-1.147-1.84-1.81c-.69-.851-1.23-1.903-1.23-3.26c0-2.222 1.487-3.616 3.176-3.965c1.611-.334 3.53.257 4.537 1.95a1.375 1.375 0 0 1-2.364 1.406c-.322-.542-.98-.795-1.616-.663c-.556.115-.983.495-.983 1.272c0 .55.196 1.01.616 1.528c.379.468.859.892 1.463 1.426l.427.379c1.547 1.383 3.445 3.27 3.54 6.644c.061 2.164-.964 3.816-2.348 4.759a5.3 5.3 0 0 1-2.167.855v.05c0 2.372-1.889 3.512-3.417 3.624h-.052l-11.531.001c-.542 0-1.024-.447-.98-1.037c.207-2.724 1.975-5.214 4.435-6.244l-2.35-2.421c-1.986 1.147-3.968 3.632-4.583 6.584a3.02 3.02 0 0 1 1.525 2.626a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.189-.037l-.006-.002c-.433-.17-.704-.547-.876-.85c-.168-.297-.264-.625-.272-.867v-.026c.088-5.441 3.017-9.34 5.919-11.59a5.48 5.48 0 0 1-2.984-2.721a3.152 3.152 0 0 1 .242-6.21m11.586 4.525a2.15 2.15 0 0 0-.727-3.35c.166.522.256 1.079.256 1.656v.992q0 .36-.045.708q.252-.03.516-.006M4.293 9.35a2.151 2.151 0 0 0-.124 3.801a5.5 5.5 0 0 1-.126-1.17v-.992c0-.57.088-1.121.25-1.639m3.463-2.097a2.225 2.225 0 0 0-2.225 2.225v.07c0 .791.414 1.486 1.036 1.88q-.043.27-.043.553a3.473 3.473 0 1 0 6.901-.553a2.22 2.22 0 0 0 1.036-1.88v-.07a2.225 2.225 0 0 0-2.225-2.225zM5.523 27.938a2.02 2.02 0 0 0-1.96 1.523h3.922a2.025 2.025 0 0 0-1.962-1.523m12.04 1.52h3.92a2.024 2.024 0 0 0-3.92 0" />
+                        </g>
+                    </svg></div>
+                <div class="timeline-card">
+                    <span class="stop-number">Станция 02</span>
+                    <div class="era-meta">
+                        <span class="era-date">66 — 2,5 млн лет назад</span>
+                        <span class="era-duration">Длительность: около 64 млн лет</span>
+                    </div>
+                    <h2 class="era-title">Расцвет млекопитающих</h2>
+                    <p class="era-text">После гибели динозавров опустевшие экологические ниши начали занимать
+                        млекопитающие — раньше небольшие и малозаметные существа.</p>
+                    <p class="era-text">За миллионы лет они увеличились в размерах и разнообразии: появились предки
+                        слонов, лошадей и приматов.</p>
+                    <p class="era-text">Именно среди приматов Африки постепенно сформировалась ветвь, которая в
+                        итоге привела к появлению первых людей.</p>
+                    <blockquote class="era-quote">Пока Земля восстанавливалась, природа искала новых хозяев планеты.
+                    </blockquote>
+                    <ul class="era-list">
+                        <li class="era-list-item">55 млн лет назад — появление первых приматов</li>
+                        <li class="era-list-item">20 млн лет назад — разделение линий человекообразных обезьян</li>
+                        <li class="era-list-item">6–7 млн лет назад — общий предок человека и шимпанзе</li>
+                    </ul>
+                    <div class="era-fact">
+                        <p class="fact-title">Интересный факт</p>
+                        <p class="fact-text">Первые млекопитающие были размером не больше современной мыши.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="timeline-item timeline-item--left" id="humans">
+                <div class="timeline-dot"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 512 512">
+                        <title>stone-axe</title>
+                        <path fill="currentColor"
+                            d="m165.088 23.9l-36.824 73.973l5.584 60.91l39.248 26.475l50.498-50.498l22.896-85.45zm114.648 11.786q-.646.003-1.285.068a12.6 12.6 0 0 0-4.848 1.494c-2.992 1.65-5.75 4.55-7.38 10.633l-48.917 182.556L238.72 242.8a42 42 0 0 1 3.337 2.14L292.94 55.044c3.18-11.877-2.487-16.975-9.32-18.844a14.4 14.4 0 0 0-3.884-.514m57.21 18.207c-3.527-.127-7.513 1.456-11.86 5.802L305.9 78.88l-14.318 53.442l53.064-53.064c4.454-4.454 5.586-8.292 5.52-11.71c-.066-3.416-1.584-6.708-4.102-9.2c-2.517-2.492-5.59-4.33-9.117-4.455zm26.34 31.873a40.6 40.6 0 0 1-5.425 6.707l-75.954 75.955l-20.474 76.418l70.207 47.36l73.64-90.462l12.173-99.07l-54.168-16.908zm72.3 22.568l-11.258 91.607l43.533 33.624l1.61-114.654zm-221.666 62.53l-31.15 31.148c-2.114 2.115-3.475 4.195-4.266 6.21a41 41 0 0 1 3.17 1.643l18.875 10.9l13.37-49.902zm202.605 46.665l-69.332 85.17l23.924 16.136l91.658-65.586zm-252.845 5.853q-.51.008-.996.056c-.866.087-1.678.267-2.452.51c-3.095.966-5.83 3.317-7.584 6.495c-3.504 6.356-3.73 14.03 5.846 19.56l57.05 32.934c10.648 6.147 17.037 1.992 20.61-4.126c1.787-3.058 2.4-6.632 1.58-9.95c-.82-3.316-2.907-6.73-8.36-9.88l-57.046-32.933c-3.475-2.006-6.266-2.7-8.648-2.667zm-23.203 40.783q-.51.007-.997.057c-.865.087-1.677.268-2.45.51c-3.096.967-5.833 3.318-7.585 6.496c-3.504 6.354-3.73 14.028 5.844 19.555l57.05 32.938h.002c10.647 6.147 17.035 1.99 20.61-4.127c1.786-3.06 2.4-6.63 1.58-9.948c-.82-3.317-2.908-6.733-8.362-9.882l-57.045-32.934c-3.475-2.007-6.266-2.7-8.648-2.666zm-7.334 46.96l-105.54 183.1h59.35l90.73-157.388l-44.54-25.713z" />
+                    </svg></div>
+                <div class="timeline-card">
+                    <span class="stop-number">Станция 03</span>
+                    <div class="era-meta">
+                        <span class="era-date">2,5 млн — 10 тыс. лет назад</span>
+                        <span class="era-duration">Каменный век (палеолит)</span>
+                    </div>
+                    <h2 class="era-title">Появление первых людей</h2>
+                    <p class="era-text">Около 2,5 миллионов лет назад в Африке появились первые представители рода
+                        Homo, начавшие изготавливать простые каменные орудия.</p>
+                    <p class="era-text">Люди научились использовать огонь, охотиться группами и создавать наскальные
+                        рисунки, сохранившиеся до наших дней.</p>
+                    <p class="era-text">Постепенно Homo sapiens расселились по всем континентам, вытеснив другие виды
+                        людей, включая неандертальцев.</p>
+                    <blockquote class="era-quote">Первые инструменты человека были такими же простыми, как и его
+                        первые слова.</blockquote>
+                    <ul class="era-list">
+                        <li class="era-list-item">2,5 млн лет назад — первые каменные орудия</li>
+                        <li class="era-list-item">400 тыс. лет назад — освоение огня</li>
+                        <li class="era-list-item">40 тыс. лет назад — первая наскальная живопись</li>
+                    </ul>
+                    <div class="era-fact">
+                        <p class="fact-title">Интересный факт</p>
+                        <p class="fact-text">Неандертальцы жили рядом с Homo sapiens десятки тысяч лет, прежде чем
+                            исчезнуть.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="timeline-item timeline-item--right" id="agriculture">
+                <div class="timeline-dot"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 48 48">
+                        <title>emoji-adult-farmer</title>
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M23.657 19.59a1.453 1.453 0 1 1-2.906 0a1.453 1.453 0 0 1 2.906 0m-5.81 0a1.453 1.453 0 1 1-2.906 0a1.453 1.453 0 0 1 2.906 0m14.169-2.323s-1.726 11.196 5.146 11.372V17.267m5.145 0s1.726 11.196-5.145 11.372V17.267m-4.064 24.878s1.453-9.442-7.262-9.442c-2.318 1.546-4.304 2.614-6.537 2.61h.091c-2.232.004-4.218-1.064-6.536-2.61c-8.716 0-7.263 9.442-7.263 9.442" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M11.131 18.137a12.9 12.9 0 0 0-.123 4.133l-.343-.38s-3.38-4.976 1.854-10.089h13.228c5.234 5.113 1.855 10.089 1.855 10.089l-4.111-9.17s-1.074 2.765-4.106 2.538c0 0 .773-3.457-.206-3.457c0 0-3.765 4.516-8.042 6.337" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M11.297 18.137a13 13 0 0 0-.233 2.442c0 5.685 3.687 10.294 8.235 10.294c4.336 0 7.889-4.188 8.211-9.505M12.808 32.704l4.215 6.454l2.322-3.846m6.536-2.608l-4.215 6.454l-2.321-3.846" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            d="M13.003 32.889v9.246l12.672-.01v-9.251M12.919 11.801V5.844l6.38 1.03l6.38-1.03v5.957M9.27 33.395v8.74m19.967-8.74v8.76M12.919 9.256h12.76M7.347 11.801H31m4.235 16.839h3.98v3.082h-3.98zm1.99 3.082v10.423m-11.55-.02l7.423.02m-27.508 0l7.413-.01m3.467-16.877c1.64 1.472 4.026 1.608 5.658 0" />
+                    </svg></div>
+                <div class="timeline-card">
+                    <span class="stop-number">Станция 04</span>
+                    <div class="era-meta">
+                        <span class="era-date">около 10 000 года до н.э.</span>
+                        <span class="era-duration">Неолитическая революция</span>
+                    </div>
+                    <h2 class="era-title">Рождение земледелия</h2>
+                    <p class="era-text">Люди перешли от охоты и собирательства к земледелию и скотоводству, что
+                        радикально изменило образ жизни.</p>
+                    <p class="era-text">Появились постоянные поселения, а вместе с ними — запасы еды, ремёсла и
+                        первые формы собственности.</p>
+                    <p class="era-text">Эта перемена подготовила почву для возникновения первых городов и
+                        государств.</p>
+                    <blockquote class="era-quote">Посадив первое зерно, человек посадил и семя будущих городов.
+                    </blockquote>
+                    <ul class="era-list">
+                        <li class="era-list-item">10 000 год до н.э. — одомашнивание пшеницы и ячменя</li>
+                        <li class="era-list-item">8 000 год до н.э. — приручение овец и коз</li>
+                        <li class="era-list-item">6 000 год до н.э. — первые постоянные поселения</li>
+                    </ul>
+                    <div class="era-fact">
+                        <p class="fact-title">Интересный факт</p>
+                        <p class="fact-text">Собака считается одним из первых прирученных животных — ещё до начала
+                            земледелия.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="timeline-item timeline-item--left" id="civilizations">
+                <div class="timeline-dot">🏺</div>
+                <div class="timeline-card">
+                    <span class="stop-number">Станция 05</span>
+                    <div class="era-meta">
+                        <span class="era-date">около 3500 года до н.э.</span>
+                        <span class="era-duration">Первые города-государства</span>
+                    </div>
+                    <h2 class="era-title">Первые цивилизации</h2>
+                    <p class="era-text">В плодородных долинах Нила, Тигра и Евфрата возникли первые города — Ур,
+                        Мемфис и Вавилон.</p>
+                    <p class="era-text">Люди изобрели письменность, чтобы вести учёт урожая и торговли, а также
+                        создали первые законы.</p>
+                    <p class="era-text">Так родились Древний Египет и Шумер — колыбели человеческой цивилизации.</p>
+                    <blockquote class="era-quote">Первые законы были написаны глиной и камнем, но изменили ход
+                        истории.</blockquote>
+                    <ul class="era-list">
+                        <li class="era-list-item">3200 год до н.э. — изобретение клинописи в Шумере</li>
+                        <li class="era-list-item">3100 год до н.э. — объединение Верхнего и Нижнего Египта</li>
+                        <li class="era-list-item">1750 год до н.э. — свод законов царя Хаммурапи</li>
+                    </ul>
+                    <div class="era-fact">
+                        <p class="fact-title">Интересный факт</p>
+                        <p class="fact-text">Древнейшие известные тексты — это не литература, а хозяйственные записи
+                            о зерне и скоте.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="timeline-item timeline-item--right" id="antiquity">
+                <div class="timeline-dot">🏛️</div>
+                <div class="timeline-card">
+                    <span class="stop-number">Станция 06</span>
+                    <div class="era-meta">
+                        <span class="era-date">800 год до н.э. — 476 год</span>
+                        <span class="era-duration">Греция и Рим</span>
+                    </div>
+                    <h2 class="era-title">Античность</h2>
+                    <p class="era-text">Древняя Греция подарила миру философию, театр, демократию и Олимпийские
+                        игры.</p>
+                    <p class="era-text">Древний Рим создал развитую систему права, построил дороги и акведуки,
+                        объединившие огромную империю.</p>
+                    <p class="era-text">Знания греков и римлян легли в основу европейской науки, архитектуры и
+                        государственного управления на века вперёд.</p>
+                    <blockquote class="era-quote">Город на семи холмах вырос в империю, объединившую три континента.
+                    </blockquote>
+                    <ul class="era-list">
+                        <li class="era-list-item">776 год до н.э. — первые Олимпийские игры</li>
+                        <li class="era-list-item">508 год до н.э. — рождение афинской демократии</li>
+                        <li class="era-list-item">476 год — падение Западной Римской империи</li>
+                    </ul>
+                    <div class="era-fact">
+                        <p class="fact-title">Интересный факт</p>
+                        <p class="fact-text">Некоторые римские дороги были построены настолько прочно, что
+                            используются до сих пор.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="timeline-item timeline-item--left" id="middle-ages">
+                <div class="timeline-dot">🏰</div>
+                <div class="timeline-card">
+                    <span class="stop-number">Станция 07</span>
+                    <div class="era-meta">
+                        <span class="era-date">476 — 1450 годы</span>
+                        <span class="era-duration">Феодальная эпоха</span>
+                    </div>
+                    <h2 class="era-title">Средние века</h2>
+                    <p class="era-text">После падения Рима Европа раздробилась на множество королевств и герцогств.
+                    </p>
+                    <p class="era-text">Строились соборы и замки, а рыцарские турниры и феодальные отношения
+                        определяли жизнь общества.</p>
+                    <p class="era-text">В монастырях монахи бережно переписывали и сохраняли рукописи античных
+                        авторов.</p>
+                    <blockquote class="era-quote">Пока замки росли ввысь, знания хранились в тишине монастырских
+                        библиотек.</blockquote>
+                    <ul class="era-list">
+                        <li class="era-list-item">800 год — коронация Карла Великого</li>
+                        <li class="era-list-item">1066 год — нормандское завоевание Англии</li>
+                        <li class="era-list-item">1347 год — начало эпидемии чумы в Европе</li>
+                    </ul>
+                    <div class="era-fact">
+                        <p class="fact-title">Интересный факт</p>
+                        <p class="fact-text">Университеты, такие как Болонский и Оксфордский, появились именно в
+                            Средние века.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="timeline-item timeline-item--right" id="discoveries">
+                <div class="timeline-dot">🧭</div>
+                <div class="timeline-card">
+                    <span class="stop-number">Станция 08</span>
+                    <div class="era-meta">
+                        <span class="era-date">1450 — 1600 годы</span>
+                        <span class="era-duration">Эпоха мореплавателей</span>
+                    </div>
+                    <h2 class="era-title">Великие географические открытия</h2>
+                    <p class="era-text">Развитие мореходства и появление компаса позволили европейцам отправиться в
+                        дальние морские путешествия.</p>
+                    <p class="era-text">Колумб достиг берегов Америки, а экспедиция Магеллана впервые обогнула
+                        земной шар.</p>
+                    <p class="era-text">Мир оказался куда больше, чем представляли прежде, а торговые пути связали
+                        континенты.</p>
+                    <blockquote class="era-quote">Горизонт перестал быть краем света и стал направлением для новых
+                        открытий.</blockquote>
+                    <ul class="era-list">
+                        <li class="era-list-item">1492 год — экспедиция Христофора Колумба</li>
+                        <li class="era-list-item">1498 год — Васко да Гама достигает Индии</li>
+                        <li class="era-list-item">1522 год — завершение первого кругосветного плавания</li>
+                    </ul>
+                    <div class="era-fact">
+                        <p class="fact-title">Интересный факт</p>
+                        <p class="fact-text">Учёные знали о шарообразности Земли ещё с античности — сомневались в
+                            этом в основном простые моряки.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="timeline-item timeline-item--left" id="science">
+                <div class="timeline-dot">🔭</div>
+                <div class="timeline-card">
+                    <span class="stop-number">Станция 09</span>
+                    <div class="era-meta">
+                        <span class="era-date">1543 — 1687 годы</span>
+                        <span class="era-duration">Научная революция</span>
+                    </div>
+                    <h2 class="era-title">Рождение современной науки</h2>
+                    <p class="era-text">Коперник предложил гелиоцентрическую модель, поставив Солнце, а не Землю, в
+                        центр мира.</p>
+                    <p class="era-text">Галилей усовершенствовал телескоп и подтвердил догадки Коперника, наблюдая
+                        за спутниками Юпитера.</p>
+                    <p class="era-text">Ньютон сформулировал законы движения и всемирного тяготения, заложив основы
+                        современной физики.</p>
+                    <blockquote class="era-quote">Вселенная оказалась куда более упорядоченной и предсказуемой, чем
+                        считали раньше.</blockquote>
+                    <ul class="era-list">
+                        <li class="era-list-item">1543 год — публикация труда Коперника о вращении небесных сфер</li>
+                        <li class="era-list-item">1609 год — Галилей наблюдает спутники Юпитера</li>
+                        <li class="era-list-item">1687 год — Ньютон публикует «Математические начала натуральной
+                            философии»</li>
+                    </ul>
+                    <div class="era-fact">
+                        <p class="fact-title">Интересный факт</p>
+                        <p class="fact-text">Галилея судила инквизиция за поддержку идеи о движении Земли вокруг
+                            Солнца.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="timeline-item timeline-item--right" id="enlightenment">
+                <div class="timeline-dot">📚</div>
+                <div class="timeline-card">
+                    <span class="stop-number">Станция 10</span>
+                    <div class="era-meta">
+                        <span class="era-date">1685 — 1789 годы</span>
+                        <span class="era-duration">Век Просвещения</span>
+                    </div>
+                    <h2 class="era-title">Просвещение</h2>
+                    <p class="era-text">Философы Просвещения — Вольтер, Руссо и Дидро — отстаивали разум, свободу и
+                        права человека.</p>
+                    <p class="era-text">Появилась французская «Энциклопедия», собравшая знания той эпохи в одном
+                        издании.</p>
+                    <p class="era-text">Идеи Просвещения вдохновили революции и легли в основу современных
+                        представлений о демократии.</p>
+                    <blockquote class="era-quote">Эпоха, когда разум стал главным инструментом познания мира.
+                    </blockquote>
+                    <ul class="era-list">
+                        <li class="era-list-item">1751 год — выход первого тома французской «Энциклопедии»</li>
+                        <li class="era-list-item">1776 год — Декларация независимости США</li>
+                        <li class="era-list-item">1789 год — начало Великой французской революции</li>
+                    </ul>
+                    <div class="era-fact">
+                        <p class="fact-title">Интересный факт</p>
+                        <p class="fact-text">Идеи философов Просвещения повлияли на конституции многих стран,
+                            включая США.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="timeline-item timeline-item--left" id="industrial">
+                <div class="timeline-dot">🏭</div>
+                <div class="timeline-card">
+                    <span class="stop-number">Станция 11</span>
+                    <div class="era-meta">
+                        <span class="era-date">1760 — 1840 годы</span>
+                        <span class="era-duration">Промышленная революция</span>
+                    </div>
+                    <h2 class="era-title">Промышленная революция</h2>
+                    <p class="era-text">Изобретение паровой машины изменило производство, транспорт и повседневную
+                        жизнь миллионов людей.</p>
+                    <p class="era-text">Фабрики заменили ручной труд машинным, а железные дороги сократили
+                        расстояния между городами.</p>
+                    <p class="era-text">Люди массово переезжали из деревень в растущие промышленные города в
+                        поисках работы.</p>
+                    <blockquote class="era-quote">Дым фабричных труб стал символом новой, машинной эпохи.
+                    </blockquote>
+                    <ul class="era-list">
+                        <li class="era-list-item">1769 год — Джеймс Уатт патентует усовершенствованную паровую
+                            машину</li>
+                        <li class="era-list-item">1825 год — открытие первой железной дороги общего пользования</li>
+                        <li class="era-list-item">1830-е годы — массовое распространение фабричного производства
+                        </li>
+                    </ul>
+                    <div class="era-fact">
+                        <p class="fact-title">Интересный факт</p>
+                        <p class="fact-text">Первые поезда развивали скорость около 15–20 км/ч — примерно как
+                            быстрый бегун.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="timeline-item timeline-item--right timeline-item--last" id="electricity">
+                <div class="timeline-dot">💡</div>
+                <div class="timeline-card timeline-card--final">
+                    <span class="stop-number">Станция 12 · Конечная</span>
+                    <div class="era-meta">
+                        <span class="era-date">1800 — 1900 годы</span>
+                        <span class="era-duration">Эпоха электричества</span>
+                    </div>
+                    <h2 class="era-title">Изобретение электричества</h2>
+                    <p class="era-text">В 1800 году Алессандро Вольта создал первую в мире батарею, положив начало
+                        эпохе электричества.</p>
+                    <p class="era-text">Майкл Фарадей открыл электромагнитную индукцию, объяснив, как механическое
+                        движение превращается в электрический ток.</p>
+                    <p class="era-text">Томас Эдисон и Никола Тесла подарили миру практичную лампу накаливания и
+                        систему переменного тока, навсегда изменив жизнь городов.</p>
+                    <blockquote class="era-quote">Впервые в истории ночь перестала быть временем полной темноты.
+                    </blockquote>
+                    <ul class="era-list">
+                        <li class="era-list-item">1800 год — изобретение первой электрической батареи</li>
+                        <li class="era-list-item">1831 год — открытие электромагнитной индукции Фарадеем</li>
+                        <li class="era-list-item">1879 год — создание практичной лампы накаливания</li>
+                    </ul>
+                    <div class="era-fact">
+                        <p class="fact-title">Интересный факт</p>
+                        <p class="fact-text">Тесла и Эдисон долгое время конкурировали за то, какой ток —
+                            переменный или постоянный — станет основным в электросетях.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="outro">
+            <div class="container outro-inner">
+                <div class="postcard">
+                    <span class="postcard-stamp">💡</span>
+                    <h2 class="outro-title">Конечная станция</h2>
+                    <p class="outro-text">От гигантских ящеров до электрической лампочки прошло более 240 миллионов
+                        лет. Двенадцать остановок позади — а история, конечно, на этом не заканчивается.</p>
+                    <a class="hero-button outro-button" href="#dinosaurs">Отправиться заново ↑</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-columns">
+            <div class="footer-column">
+                <h3 class="footer-title">О проекте</h3>
+                <p class="footer-text">Учебная страница-экспедиция, созданная для практики вёрстки на HTML и CSS.
+                </p>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Маршрут</h3>
+                <ul class="footer-list">
+                    <li><a class="footer-link" href="#dinosaurs">Динозавры</a></li>
+                    <li><a class="footer-link" href="#civilizations">Цивилизации</a></li>
+                    <li><a class="footer-link" href="#industrial">Промышленность</a></li>
+                    <li><a class="footer-link" href="#electricity">Электричество</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3 class="footer-title">Контакты</h3>
+                <p class="footer-text">history@example.com</p>
+            </div>
+        </div>
+        <p class="footer-copy">&copy; 2026 Хроники Земли. Учебный проект.</p>
+    </footer>
+
+</body>
+
+</html>
